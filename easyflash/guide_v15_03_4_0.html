@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0068)easyflash_guide.html -->
-<html lang="it" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EasyFlash guide</title>
     <style>
@@ -222,44 +222,47 @@
             }
         }
     </style>
-
 </head>
 <body>
     <h1 style="text-align: center; margin-bottom: 30px;">EasyFlash quick guide</h1>
     
     <div class="toc">
         <h2>Contents</h2>
-        <a href="easyflash_guide.html#general-info" class="toc-level-1">General Info</a>
-        <a href="easyflash_guide.html#release-note" class="toc-level-1">Release Note</a>
-        <a href="easyflash_guide.html#version-150230" class="toc-level-2">EasyFlash version 15.02.3.0</a>
-        <a href="easyflash_guide.html#platforms-supported" class="toc-level-3">Platforms supported</a>
-        <a href="easyflash_guide.html#software-components" class="toc-level-3">Software components release</a>
-        <a href="easyflash_guide.html#user-guide" class="toc-level-1">User Guide</a>
-        <a href="easyflash_guide.html#sara-r5xxx" class="toc-level-2"><strong>SARA-R5xxx</strong></a>
-        <a href="easyflash_guide.html#sara-r5-general" class="toc-level-3">General Info</a>
-        <a href="easyflash_guide.html#sara-r5-flashing" class="toc-level-3">Flashing steps</a>
-        <a href="easyflash_guide.html#sara-r5-tips" class="toc-level-3">Tips for using EasyFlash</a>
-        <a href="easyflash_guide.html#sara-r5-fw-update" class="toc-level-3">FW update: device files and settings</a>
-        <a href="easyflash_guide.html#sara-r4xxx" class="toc-level-2"><strong>SARA-R4xxx</strong></a>
-        <a href="easyflash_guide.html#sara-r4-general" class="toc-level-3">General Info</a>
-        <a href="easyflash_guide.html#sara-r4-flashing" class="toc-level-3">Flashing steps</a>
-        <a href="easyflash_guide.html#sara-r4-tips" class="toc-level-3">Tips for using EasyFlash</a>
-        <a href="easyflash_guide.html#sara-r4-backup" class="toc-level-3">EasyFlash and Backup &amp; Restore feature</a>
-        <a href="easyflash_guide.html#sara-r4-fw-update" class="toc-level-3">FW update: device files and settings</a>
-        <a href="easyflash_guide.html#lara-r6xxx" class="toc-level-2"><strong>LARA-R6xxx - LARA-L6xxx</strong></a>
-        <a href="easyflash_guide.html#lara-general" class="toc-level-3">General Info</a>
-        <a href="easyflash_guide.html#lara-flashing" class="toc-level-3">Flashing steps</a>
-        <a href="easyflash_guide.html#lara-tips" class="toc-level-3">Tips for using EasyFlash</a>
-        <a href="easyflash_guide.html#lara-backup" class="toc-level-3">EasyFlash and Backup &amp; Restore feature</a>
-        <a href="easyflash_guide.html#lara-errors" class="toc-level-3">Typical errors</a>
-        <a href="easyflash_guide.html#lara-fw-impact" class="toc-level-3">FW update impact to device files and settings</a>
-        <a href="easyflash_guide.html#lexi-r5" class="toc-level-2"><strong>LEXI-R5</strong></a>
-        <a href="easyflash_guide.html#lexi-r5-general" class="toc-level-3">General Info</a>
-        <a href="easyflash_guide.html#lexi-r10" class="toc-level-2"><strong>LEXI-R10</strong></a>
-        <a href="easyflash_guide.html#lexi-r10-general" class="toc-level-3">General Info</a>
-        <a href="easyflash_guide.html#adam-r11" class="toc-level-2"><strong>ADAM-R11</strong></a>
-        <a href="easyflash_guide.html#adam-R11-general" class="toc-level-3">General Info</a>
-        <a href="easyflash_guide.html#command-line" class="toc-level-1">Command line shell_easyflash.exe</a>
+        <a href="#general-info" class="toc-level-1">General Info</a>
+        <a href="#release-note" class="toc-level-1">Release Note</a>
+        <a href="#version-150340" class="toc-level-2">EasyFlash version 15.03.4.0</a>
+        <a href="#platforms-supported" class="toc-level-3">Platforms supported</a>
+        <a href="#software-components" class="toc-level-3">Software components release</a>
+        <a href="#user-guide" class="toc-level-1">User Guide</a>
+        <a href="#sara-r5xxx" class="toc-level-2"><strong>SARA-R5 series</strong></a>
+        <a href="#sara-r5-general" class="toc-level-3">General Info</a>
+        <a href="#sara-r5-flashing" class="toc-level-3">Flashing steps</a>
+        <a href="#sara-r5-tips" class="toc-level-3">Tips for using EasyFlash</a>
+        <a href="#sara-r5-fw-update" class="toc-level-3">FW update: device files and settings</a>
+        <a href="#sara-r4xxx" class="toc-level-2"><strong>SARA-R4 series</strong></a>
+        <a href="#sara-r4-general" class="toc-level-3">General Info</a>
+        <a href="#sara-r4-flashing" class="toc-level-3">Flashing steps</a>
+        <a href="#sara-r4-tips" class="toc-level-3">Tips for using EasyFlash</a>
+        <a href="#sara-r4-backup" class="toc-level-3">EasyFlash and Backup & Restore feature</a>
+        <a href="#sara-r4-fw-update" class="toc-level-3">FW update: device files and settings</a>
+        <a href="#lara-r6xxx" class="toc-level-2"><strong>LARA-R6 / LARA-L6 seriesx</strong></a>
+        <a href="#lara-general" class="toc-level-3">General Info</a>
+        <a href="#lara-flashing" class="toc-level-3">Flashing steps</a>
+        <a href="#lara-tips" class="toc-level-3">Tips for using EasyFlash</a>
+        <a href="#lara-backup" class="toc-level-3">EasyFlash and Backup & Restore feature</a>
+        <a href="#lara-errors" class="toc-level-3">Typical errors</a>
+        <a href="#lara-fw-impact" class="toc-level-3">FW update impact to device files and settings</a>
+        <a href="#lexi-r5" class="toc-level-2"><strong>LEXI-R5</strong></a>
+        <a href="#lexi-r5-general" class="toc-level-3">General Info</a>
+        <a href="#lexi-r10" class="toc-level-2"><strong>LEXI-R10</strong></a>
+        <a href="#lexi-r10-general" class="toc-level-3">General Info</a>
+        <a href="#lexi-r7" class="toc-level-2"><strong>LEXI-R7</strong></a>
+        <a href="#lexi-r7-general" class="toc-level-3">General Info</a>
+        <a href="#sara-r7" class="toc-level-2"><strong>SARA-R7</strong></a>
+        <a href="#sara-r7-general" class="toc-level-3">General Info</a>
+        <a href="#adam-r11" class="toc-level-2"><strong>ADAM-R11</strong></a>
+        <a href="#adam-R11-general" class="toc-level-3">General Info</a>
+        <a href="#command-line" class="toc-level-1">Command line shell_easyflash.exe</a>
     </div>
 
     <h1 id="general-info">General Info</h1>
@@ -272,7 +275,7 @@
 
     <h1 id="release-note">Release Note</h1>
     
-    <h2 id="version-150230">EasyFlash version 15.02.3.0</h2>
+    <h2 id="version-150340">EasyFlash version 15.03.4.0</h2>
     
     <h3 id="platforms-supported">Platforms supported</h3>
     
@@ -284,33 +287,25 @@
             <li>SARA-R5xxx</li>
             <li>LEXI-R5</li>
             <li>LEXI-R10</li>
+            <li>LEXI-R7</li>
+            <li>SARA-R7</li>
             <li>ADAM-R11</li>
         </ul>
     </div>
 
     <h3 id="software-components">Software components release</h3>
     
-    <p>The SW is composed of the tool interface 15.02 graphical user interface, command line and the following DLL:</p>
+    <p>The SW is composed of the tool interface 15.03 graphical user interface and command line:</p>
     
     <div class="software-components">
         <ul>
-            <li>EF GUI (EasyFlash.exe) 3.0</li>
-            <li>EF Command Line (shell_easyflash.exe) 15.02</li>
-            <li>EasyFlash.dll 15.02</li>
-            <li>QLIB_Download.dll 01.18.00</li>
-            <li>alf_km.dll 1.16.0</li>
-            <li>icudt53.dll 53.1.0.0</li>
-            <li>icuin53.dll 53.1.0.0</li>
-            <li>icuuc53.dll 53.1.0.0</li>
-            <li>libelf.dll [version not specified]</li>
-            <li>Qt5Core.dll 5.4.0.0</li>
-            <li>Qt5SerialPort.dll 5.4.0.0</li>
-            <li>Qt5Network.dll 5.4.0.0</li>
-            <li>tftp_dll64_native.dll [version not specified]</li>
-            <li>netboot_ptp_decoder.dll [version not specified]</li>
-            <li>FH_Download.dll [fh_loader.7z with exe tool fh_loader.exe taken from QPST package 2.7 Build 495 Spin 1 ver 19.06.10.18.44 masked as dummy DLL]</li>
-            <li>FT_Download.dll [FlashToolCLI.exe v4.0.10]</li>
+            <li>EF GUI (EasyFlash.exe) 4.0</li>
+            <li>EF Command Line (shell_easyflash.exe) 15.03</li>
         </ul>
+    </div>
+
+    <div class="pointer-note">
+        For each firmware release, there is a recommended version or minimal version of EasyFlash. Consult Trasna support to identify which EasyFlash version shall be used.
     </div>
 
     <h1 id="user-guide">User Guide</h1>
@@ -320,40 +315,38 @@
     <h3 id="sara-r5-general">General Info</h3>
     
     <div class="pointer-note">
-        The auxiliary UART interface cannot be used to update the module by means of EasyFlash.
+        The auxiliary UART interface cannot be used to update the module by EasyFlash.
     </div>
     
-    <div class="pointer-note">
-        For each firmware release, there is a recommended version or minimal version of EasyFlash to be used with it. Consult Trasna support to identify which EasyFlash version shall be used.
-    </div>
+
 
     <h3 id="sara-r5-flashing">Flashing steps</h3>
     
     <ol>
-        <li>Copy the firmware flash file (.dof) to the directory where EasyFlash.exe is installed (<a href="easyflash_guide.html#figure-1">Figure 1</a>).</li>
+        <li>Copy the firmware flash file (.dof) to the directory where EasyFlash.exe is installed (<a href="#figure-1">Figure 1</a>).</li>
     </ol>
 
     <div class="figure" id="figure-1">
-        <img src="img/image045.png" alt="Graphical user interface, text, application - Description automatically generated">
+        <img src="guide_v15_03_4_0_files/image045.png" alt="Graphical user interface, text, application - Description automatically generated">
         <div class="figure-caption">Figure 1: EasyFlash directory and file details</div>
     </div>
     
     <ol start="2">
-        <li>Alternatively, check <strong>Enable file browser</strong> to use a .dof file in a different directory (see <a href="easyflash_guide.html#figure-2">Figure 2</a>).</li>
+        <li>Alternatively, check <strong>Enable file browser</strong> to use a .dof file in a different directory (see <a href="#figure-2">Figure 2</a>).</li>
     </ol>
 
     <div class="figure" id="figure-2">
-        <img src="img/image046.png" alt="Graphical user interface, application - Description automatically generated">
-        <img src="img/image047.png" alt="Graphical user interface, application - Description automatically generated">
+        <img src="guide_v15_03_4_0_files/image046.png" alt="Graphical user interface, application - Description automatically generated">
+        <img src="guide_v15_03_4_0_files/image047.png" alt="Graphical user interface, application - Description automatically generated">
         <div class="figure-caption">Figure 2: Enable file browser and select the ".dof" file path</div>
     </div>
     
     <div class="pointer-note">
-        The folder where the dof file is placed <strong>must be writable</strong>, since temporary and trace files are written there. There is also a warning (if enabled in <strong>Tools &gt; Show Warnings</strong>), for reminding this when the user selects the dof file by the file browser (<a href="easyflash_guide.html#figure-3">Figure 3</a>).
+        The folder where the dof file is placed <strong>must be writable</strong>, since temporary and trace files are written there. There is also a warning (if enabled in <strong>Tools > Show Warnings</strong>), for reminding this when the user selects the dof file by the file browser (<a href="#figure-3">Figure 3</a>).
     </div>
 
     <div class="figure" id="figure-3">
-        <img src="img/image048.png" alt="Graphical user interface, application - Description automatically generated">
+        <img src="guide_v15_03_4_0_files/image048.png" alt="Graphical user interface, application - Description automatically generated">
         <div class="figure-caption">Figure 3: Write warning in folder</div>
     </div>
     
@@ -364,7 +357,7 @@
         
         <li>Open EasyFlash (run / open it as <strong>Administrator</strong> in Windows).</li>
         
-        <li>Select in the pull-down menu (<a href="easyflash_guide.html#figure-4">Figure 4</a>):
+        <li>Select in the pull-down menu (<a href="#figure-4">Figure 4</a>):
             <ul>
                 <li>Product: SARA-R5</li>
                 <li>Port: corresponding "COM port"</li>
@@ -374,24 +367,24 @@
     </ol>
 
     <div class="figure" id="figure-4">
-        <img src="img/image010.png" alt="">
+        <img src="guide_v15_03_4_0_files/image010.png" alt="">
         <div class="figure-caption">Figure 4: Setting up EasyFlash and start the FW installation</div>
     </div>
     
     <ol start="7">
-        <li>"Enable trace" from main menu is ticked by default. Make sure it is on (see <a href="easyflash_guide.html#figure-1">Figure 1</a>). This will create a log per flash attempt. It is useful if something goes wrong, and it is needed to report the issue.</li>
+        <li>"Enable trace" from main menu is ticked by default. Make sure it is on (see <a href="#figure-1">Figure 1</a>). This will create a log per flash attempt. It is useful if something goes wrong, and it is needed to report the issue.</li>
         
-        <li>Click <strong>Start</strong> (<a href="easyflash_guide.html#figure-4">Figure 4</a>) and power up the module.</li>
+        <li>Click <strong>Start</strong> (<a href="#figure-4">Figure 4</a>) and power up the module.</li>
         
-        <li>Flash will start, wait for flash to complete (see <a href="easyflash_guide.html#figure-5">Figure 5</a>, <a href="easyflash_guide.html#figure-6">Figure 6</a>)</li>
+        <li>Flash will start, wait for flash to complete (see <a href="#figure-5">Figure 5</a>, <a href="#figure-6">Figure 6</a>)</li>
     </ol>
 
     <div class="figure" id="figure-5">
-        <img src="img/image050.png" alt="Flash process in progress">
+        <img src="guide_v15_03_4_0_files/image050.png" alt="Flash process in progress">
         <div class="figure-caption">Figure 5: FW update process in progress</div>
     </div>
     <div class="figure" id="figure-6">
-        <img src="img/image051.png" alt="Flash process complete">
+        <img src="guide_v15_03_4_0_files/image051.png" alt="Flash process complete">
         <div class="figure-caption">Figure 6: FW update process complete and successful</div>
     </div>
     
@@ -410,7 +403,7 @@
     </ul>
 
     <div class="figure" id="figure-7">
-        <img src="img/image052.png" alt="EasyFlash new color style">
+        <img src="guide_v15_03_4_0_files/image052.png" alt="EasyFlash new color style">
         <div class="figure-caption">Figure 7: EasyFlash new color style</div>
     </div>
     
@@ -419,19 +412,19 @@
     </ul>
 
     <div class="figure" id="figure-8">
-        <img src="img/image053.png" alt="Open trace folder">
+        <img src="guide_v15_03_4_0_files/image053.png" alt="Open trace folder">
         <div class="figure-caption">Figure 8: open trace folder</div>
     </div>
     
     <h3 id="sara-r5-fw-update">FW update: device files and settings</h3>
     
-    <p>Table 1: Impact to device files and settings of different FW update methods summarizes each of the update methods and their impact on user files and settings.</p>
+    <p>Table 1: Impact to device files and settings by EasyFlash FW update.</p>
     
     <table>
         <thead>
             <tr>
                 <th>Item</th>
-                <th>EasyFlash</th>
+                <th>Impacts</th>
             </tr>
         </thead>
         <tbody>
@@ -475,33 +468,32 @@
     </table>
     
     <div class="pointer-note">
-        To restore the module factory-programmed configuration, issue the +UFACTORY AT command. For more details, see the SARA-R5 AT commands manual Trasna SARA-R5 AT commands manual, UBX-19047455 and SARA-R5 series application development guide Trasna SARA-R5 series application development guide, UBX-20009652
+        To restore the module factory-programmed configuration, issue the +UFACTORY AT command. For more details, see the SARA-R5 AT commands manual, TRSC-437461976-110 and SARA-R5 series application development guide, TRSC-437461976-139
     </div>
 
     <h2 id="sara-r4xxx">SARA-R4xxx</h2>
     
     <h3 id="sara-r4-general">General Info</h3>
     <p>Only USB interface can be used for flashing SARA-R4 series modules.</p>
-    <p>For each firmware release, there is a recommended version or minimal version of EasyFlash to be used with it. Consult Trasna support to identify which EasyFlash version shall be used. It is good practice to have the latest version available to have all the improvements and fixes.</p>
     
     <h3 id="sara-r4-flashing">Flashing steps</h3>
     
     <ol>
-        <li>Copy the FW .dof flash file to the same directory where EasyFlash .exe is installed, see <a href="easyflash_guide.html#figure-9">Figure 9</a>.</li>
+        <li>Copy the FW .dof flash file to the same directory where EasyFlash .exe is installed, see <a href="#figure-9">Figure 9</a>.</li>
     </ol>
 
     <div class="figure" id="figure-9">
-        <img src="img/image054.png" alt="EasyFlash directory and file details">
+        <img src="guide_v15_03_4_0_files/image054.png" alt="EasyFlash directory and file details">
         <div class="figure-caption">Figure 9: EasyFlash directory and file details</div>
     </div>
     
     <div class="pointer-note">
-        Alternatively check "Enable file browser" to use a .dof file in a location different than application folder, see <a href="easyflash_guide.html#figure-10">Figure 10</a>.
+        Alternatively check "Enable file browser" to use a .dof file in a location different than application folder, see <a href="#figure-10">Figure 10</a>.
     </div>
 
     <div class="figure" id="figure-10">
-        <img src="img/image055.png" alt="Enable file browse">
-        <img src="img/image056.png" alt="Select dof file path">
+        <img src="guide_v15_03_4_0_files/image055.png" alt="Enable file browse">
+        <img src="guide_v15_03_4_0_files/image056.png" alt="Select dof file path">
         <div class="figure-caption">Figure 10: EasyFlash, "Enable file browser" and select the ".dof" file path</div>
     </div>
     
@@ -510,7 +502,7 @@
         
         <li>Run EasyFlash as Administrator.</li>
         
-        <li>Select in the pull-down menu, see <a href="easyflash_guide.html#figure-11">Figure 11</a>
+        <li>Select in the pull-down menu, see <a href="#figure-11">Figure 11</a>
             <ul>
                 <li><strong>Product</strong>: SARA-R4</li>
                 <li><strong>Port</strong>: USB</li>
@@ -518,28 +510,28 @@
             </ul>
         </li>
         
-        <li>Click <strong>Tools</strong> &gt; <strong>Enable trace</strong>, see <a href="easyflash_guide.html#figure-11">Figure 11</a>. This will create a log per flash attempt for trouble shooting.</li>
+        <li>Click <strong>Tools</strong> > <strong>Enable trace</strong>, see <a href="#figure-11">Figure 11</a>. This will create a log per flash attempt for trouble shooting.</li>
         
-        <li>Click <strong>Start</strong>, see <a href="easyflash_guide.html#figure-11">Figure 11</a>.</li>
+        <li>Click <strong>Start</strong>, see <a href="#figure-11">Figure 11</a>.</li>
     </ol>
 
     <div class="figure" id="figure-11">
-        <img src="img/image057.png" alt="EasyFlash setup">
+        <img src="guide_v15_03_4_0_files/image057.png" alt="EasyFlash setup">
         <div class="figure-caption">Figure 11: Setting up EasyFlash and starting the FW installation</div>
     </div>
     
     <ol start="7">
         <li>Power up the module.</li>
         
-        <li>Flash will start, wait for flash to complete, see <a href="easyflash_guide.html#figure-12">Figure 12</a> and <a href="easyflash_guide.html#figure-13">Figure 13</a></li>
+        <li>Flash will start, wait for flash to complete, see <a href="#figure-12">Figure 12</a> and <a href="#figure-13">Figure 13</a></li>
     </ol>
 
     <div class="figure" id="figure-12">
-        <img src="img/image058.png" alt="Flash process in progress">
+        <img src="guide_v15_03_4_0_files/image058.png" alt="Flash process in progress">
         <div class="figure-caption">Figure 12: Flash process in progress</div>
     </div>
     <div class="figure" id="figure-13">
-        <img src="img/image059.png" alt="Flash process complete">
+        <img src="guide_v15_03_4_0_files/image059.png" alt="Flash process complete">
         <div class="figure-caption">Figure 13: Flash process complete and successful</div>
     </div>
     
@@ -573,18 +565,18 @@
         <li>Try rebooting the PC if a flash fails a few times, and then try again after reboot.</li>
     </ul>
 
-    <h3 id="sara-r4-backup">EasyFlash and Backup &amp; Restore feature</h3>
+    <h3 id="sara-r4-backup">EasyFlash and Backup & Restore feature</h3>
     
-    <p>EFS / Backup &amp; Restore feature is not supported by SARA-R4 "52" / "63" / "73" / "83" product versions or by SARA-R410M-02B-00, SARA-R410M-02B-01, SARA-R410M-02B-02, SARA-R412M-02B-00, SARA-R412M-02B-01, and SARA-R412M-02B-02.</p>
+    <p>EFS / Backup & Restore feature is not supported by SARA-R4 "52" / "63" / "73" / "83" product versions or by SARA-R410M-02B-00, SARA-R410M-02B-01, SARA-R410M-02B-02, SARA-R412M-02B-00, SARA-R412M-02B-01, and SARA-R412M-02B-02.</p>
     
-    <p>This section describes how to use EasyFlash and update the module to a firmware with Backup &amp; Restore feature.</p>
+    <p>This section describes how to use EasyFlash and update the module to a firmware with Backup & Restore feature.</p>
     
-    <p>After a successful firmware update using EasyFlash as indicated by the green graphic user interface progress bar and "SUCCESS!" status message, as shown in <a href="easyflash_guide.html#figure-14">Figure 14</a>, the module is set to trigger a backup upon the first boot. Allow the boot-up and backup time for the backup process, as guided in Trasna SARA-R41 series application development application note, UBX-18019856.</p>
+    <p>After a successful firmware update using EasyFlash as indicated by the "SUCCESS!" status message, as shown in <a href="#figure-14">Figure 14</a>, the module is set to trigger a backup upon the first boot. Allow the boot-up and backup time for the backup process.</p>
     
     <p>If the device is left powered on after the EasyFlash process is complete it will automatically boot and perform the backup.</p>
 
     <div class="figure" id="figure-14">
-        <img src="img/image060.png" alt="Flash completed">
+        <img src="guide_v15_03_4_0_files/image060.png" alt="Flash completed">
         <div class="figure-caption">Figure 14: Flashing module is completed. The module will boot-up after success and perform first Backup.</div>
     </div>
     
@@ -609,7 +601,7 @@
 
     <h4>Setting preferred message storage after FW update</h4>
     
-    <p>If a firmware build with the Backup &amp; Restore feature is being deployed onto a module by EasyFlash, after a successful FW update when the device boots up, the host is required to set preferred SMS message storage by the +CPMS AT command just once after the firmware update. This step is required if the host application uses SMS. If not, this step can be ignored. Even if the host intends to use the +CPMS AT command factory-programmed setting, the storage setting still needs to be set.</p>
+    <p>If a firmware build with the Backup & Restore feature is being deployed onto a module by EasyFlash, after a successful FW update when the device boots up, the host is required to set preferred SMS message storage by the +CPMS AT command just once after the firmware update. This step is required if the host application uses SMS. If not, this step can be ignored. Even if the host intends to use the +CPMS AT command factory-programmed setting, the storage setting still needs to be set.</p>
 
     <h3 id="sara-r4-fw-update">FW update: device files and settings</h3>
     
@@ -693,30 +685,29 @@
     
     <div class="caption">Table 3: Summary of each firmware update method and impact to device files and settings</div>
 
-    <h2 id="lara-r6xxx">LARA-R6xxx - LARA-L6xxx</h2>
+    <h2 id="lara-r6xxx">LARA-R6 / LARA-L6 series</h2>
     
     <h3 id="lara-general">General Info</h3>
     <p>Only USB interface can be used for flashing LARA-R6 and LARA-L6 series modules.</p>
-    <p>For each firmware release, there is a recommended version or minimal version of EasyFlash to be used with it. Consult Trasna support to identify which EasyFlash version shall be used. It is good practice to have the latest version available to have all the improvements and fixes.</p>
-
+    
     <h3 id="lara-flashing">Flashing steps</h3>
     
     <ol>
-        <li>Copy the FW .dof flash file to the same directory where EasyFlash.exe is installed (see <a href="easyflash_guide.html#figure-15">Figure 15</a>).</li>
+        <li>Copy the FW .dof flash file to the same directory where EasyFlash.exe is installed (see <a href="#figure-15">Figure 15</a>).</li>
     </ol>
 
     <div class="figure" id="figure-15">
-        <img src="img/image061.png" alt="EasyFlash directory and file details">
+        <img src="guide_v15_03_4_0_files/image061.png" alt="EasyFlash directory and file details">
         <div class="figure-caption">Figure 15: EasyFlash directory and file details</div>
     </div>
     
     <div class="pointer-note">
-        Alternatively, check "Enable file browser" to use a .dof file in a location different than the application folder (see <a href="easyflash_guide.html#figure-16">Figure 16</a>).
+        Alternatively, check "Enable file browser" to use a .dof file in a location different than the application folder (see <a href="#figure-16">Figure 16</a>).
     </div>
 
     <div class="figure" id="figure-16">
-        <img src="img/image062.png" alt="Enable file browse">
-        <img src="img/image063.png" alt="Select dof file path">
+        <img src="guide_v15_03_4_0_files/image062.png" alt="Enable file browse">
+        <img src="guide_v15_03_4_0_files/image063.png" alt="Select dof file path">
         <div class="figure-caption">Figure 16: EasyFlash, "Enable file browser" and select the ".dof" file path</div>
     </div>
     
@@ -733,31 +724,31 @@
             </ul>
         </li>
         
-        <li>"Enable trace" from main menu (see <a href="easyflash_guide.html#figure-16">Figure 16</a>) is ticked by default. This will create a log per flash attempt. It is useful if something goes wrong, and it is needed to report the issue.</li>
+        <li>"Enable trace" from main menu (see <a href="#figure-16">Figure 16</a>) is ticked by default. This will create a log per flash attempt. It is useful if something goes wrong, and it is needed to report the issue.</li>
         
-        <li>Click "Start" button (see <a href="easyflash_guide.html#figure-17">Figure 17</a>).</li>
+        <li>Click "Start" button (see <a href="#figure-17">Figure 17</a>).</li>
     </ol>
 
     <div class="figure" id="figure-17">
-        <img src="img/image064.png" alt="EasyFlash setup">
+        <img src="guide_v15_03_4_0_files/image064.png" alt="EasyFlash setup">
         <div class="figure-caption">Figure 17: Setting up EasyFlash and starting the FW installation</div>
     </div>
     
     <ol start="7">
         <li>Power up the module.</li>
         
-        <li>Flash will start, wait for flash to complete (see <a href="easyflash_guide.html#figure-18">Figure 18</a> and <a href="easyflash_guide.html#figure-19">Figure 19</a>)</li>
+        <li>Flash will start, wait for flash to complete (see <a href="#figure-18">Figure 18</a> and <a href="#figure-19">Figure 19</a>)</li>
         
         <li>Close EasyFlash.</li>
     </ol>
 
     <div class="figure" id="figure-18">
-        <img src="img/image065.png" alt="Flash process in progress">
+        <img src="guide_v15_03_4_0_files/image065.png" alt="Flash process in progress">
         <div class="figure-caption">Figure 18: Flash process in progress</div>
     </div>
     
     <div class="figure" id="figure-19">
-        <img src="img/image066.png" alt="Flash process complete">
+        <img src="guide_v15_03_4_0_files/image066.png" alt="Flash process complete">
         <div class="figure-caption">Figure 19: Flash process complete and successful</div>
     </div>
 
@@ -767,7 +758,7 @@
         <li>Do not use a USB hub.</li>
         <li>It could be necessary to remove any other drivers for other Qualcomm chipset/products on the computer.</li>
         <li>If the flash process fails to complete, try again.</li>
-        <li>During the flash process in EasyFlash version 15.02.3.0 and higher, the EasyFlash firmware update process will first generate a backup file for the device in the root directory where the EasyFlash executable file is located, and store it on the PC until it restores it.
+        <li>During the flash process in EasyFlash version 15.03.4.0 and higher, the EasyFlash firmware update process will first generate a backup file for the device in the root directory where the EasyFlash executable file is located, and store it on the PC until it restores it.
             <ul>
                 <li>This file contains specific device data such as calibration data and IMEI value among other configuration values too.</li>
                 <li>If the EasyFlash firmware update process does not successfully complete due to some error (which will be reported by EasyFlash) and the error occurs between these two events:
@@ -787,16 +778,16 @@
         <li>Try rebooting the PC if a flash fails a few times, and then try again after reboot.</li>
     </ul>
 
-    <h3 id="lara-backup">EasyFlash and Backup &amp; Restore feature</h3>
+    <h3 id="lara-backup">EasyFlash and Backup & Restore feature</h3>
     
-    <p>This section describes how to use EasyFlash and update the module to a firmware that offers the Backup &amp; Restore feature.</p>
+    <p>This section describes how to use EasyFlash and update the module to a firmware that offers the Backup & Restore feature.</p>
     
-    <p>After a successful firmware update using EasyFlash, the module is armed to trigger a backup upon the first boot. Do allow the boot-up and backup time for the backup process, as guided in Trasna LARA-R6 / LARA-L6 application development application note, UBX-22001850.</p>
+    <p>After a successful firmware update using EasyFlash, the module is armed to trigger a backup upon the first boot. Do allow the boot-up and backup time for the backup process, as guided in Trasna LARA-R6 / LARA-L6 application development guide, TRSC-437461976-136.</p>
     
     <p>If the device is left powered on after the EasyFlash process is complete, it will automatically boot and perform the backup.</p>
 
     <div class="figure" id="figure-20">
-        <img src="img/image067.png" alt="Flash completed">
+        <img src="guide_v15_03_4_0_files/image067.png" alt="Flash completed">
         <div class="figure-caption">Figure 20: Flashing module is completed. The module will boot-up after success and perform first Backup.</div>
     </div>
     
@@ -821,7 +812,7 @@
 
     <h4>Setting preferred message storage after FW update</h4>
     
-    <p>If a firmware build with the Backup &amp; Restore feature is being deployed onto a module by EasyFlash, after a successful FW update when the device boots up, then the host is required to set preferred SMS message storage by means of the +CPMS AT command just once after the firmware update. This step is required if the host application should use SMS. If it does not intend to use SMS, then this step can be ignored. Even if the host intends to use the +CPMS AT command factory-programmed setting, the storage setting still needs to be set.</p>
+    <p>If a firmware build with the Backup & Restore feature is being deployed onto a module by EasyFlash, after a successful FW update when the device boots up, then the host is required to set preferred SMS message storage by means of the +CPMS AT command just once after the firmware update. This step is required if the host application should use SMS. If it does not intend to use SMS, then this step can be ignored. Even if the host intends to use the +CPMS AT command factory-programmed setting, the storage setting still needs to be set.</p>
 
     <h3 id="lara-errors">Typical errors</h3>
     
@@ -905,6 +896,16 @@
     <h3 id="lexi-r10-general">General Info</h3>
     <p>Same usage as SARA-R5xxx, product name: LEXI-R10. UART and USB support.</p>
 
+    <h2 id="lexi-r7">LEXI-R7</h2>
+    
+    <h3 id="lexi-r7-general">General Info</h3>
+    <p>Product name: LEXI-R7</p>
+
+    <h2 id="sara-r7">SARA-R7</h2>
+    
+    <h3 id="sara-r7-general">General Info</h3>
+    <p>Product name: SARA-R7</p>
+    
     <h2 id="adam-r11">ADAM-R11</h2>
 
     <h3 id="adam-r11-general">General Info</h3>
@@ -921,7 +922,7 @@
     <div class="code">shell_EasyFlash.exe [options]</div>
 
     <p><strong>Example:</strong><br>
-    </p><p>flash a SARA-R5 module with sara5.dof file via USB, save logs to C:Temp\log.log file </p>
+    <p>flash a SARA-R5 module with sara5.dof file via USB, save logs to C:Temp\log.log file </p>
     <div class="code">shell_EasyFlash -p SARA-R5 -cu1 -i C:\Temp\media\data\Dofs\sarar5.dof -cu C:Temp\log.log</div>
    
 
@@ -943,50 +944,50 @@
             </tr>
             <tr>
                 <td rowspan="1"><strong>PRODUCT SETTING</strong></td>
-                <td nowrap=""><div class="code">-p&lt;product name&gt;<br>
+                <td nowrap><div class="code">-p&lt;product name&gt;<br>
                 -p &lt;product name&gt;</div></td>
                 <td>Products supported are SARA-R5, SARA-R4, LARA-R6, LARA-L6, LEXI-R5, LEXI-R10, ADAM-R11</td>
                 <td>-pSARA-R5 for SARA-R5 type module. Default: SARA-R5</td>
             </tr>
             <tr>
                 <td rowspan="3"><strong>COMMUNICATION SETTING</strong></td>
-                <td nowrap=""><div class="code">-c&lt;COMM Port&gt;</div></td>
+                <td nowrap><div class="code">-c&lt;COMM Port&gt;</div></td>
                 <td>Setting Communication port for download</td>
                 <td>-c6 for COM port 6, -cu1 for USB. Default: COM1</td>
             </tr>
             <tr>
-                <td nowrap=""><div class="code">-b&lt;baudrate&gt;</div></td>
+                <td nowrap><div class="code">-b&lt;baudrate&gt;</div></td>
                 <td>Supported 115200, 230400, 460800, 921600 and 3000000 bps. Default:921600</td>
                 <td></td>
             </tr>
             <tr>
-                <td nowrap=""><div class="code">-f[do_flush]</div></td>
+                <td nowrap><div class="code">-f[do_flush]</div></td>
                 <td>flush printf buffer (disable buffering with stdout and stderr) e.g. -f1 disable buffering. Default:0</td>
                 <td></td>
             </tr>
             <tr>
                 <td rowspan="1"><strong>INPUT FILE</strong></td>
-                <td nowrap=""><div class="code">[-i&lt;Path to binaryfile.dof&gt;]<br>
+                <td nowrap><div class="code">[-i&lt;Path to binaryfile.dof&gt;]<br>
 			[-i &lt;Path to binaryfile.dof&gt;]</div></td>
                 <td>Use this binary file instead the one in application folder</td>
-                <td>If not used, odf file in the executable folder is used<p></p></td>
+                <td>If not used, odf file in the executable folder is used</p></td>
             </tr>
             <tr>
                 <td rowspan="1"><strong>USB MAP WIZARD</strong></td>
-                <td nowrap=""><div class="code">-culist</div></td>
+                <td nowrap><div class="code">-culist</div></td>
                 <td>Starts the USB MAP Wizard<br>USB MAP WIZARD setup are available for the following products SARA-R4, LARA-R6, LARA-L6, LEXI-R10</td>
                 <td></td>
             </tr>
             <tr>
                 <td rowspan="1"><strong>USB COMMUNICATION SET FOR MULTI CHANNEL DOWNLOAD</strong></td>
-                <td nowrap=""><div class="code">-cu&lt;usb_path_name&gt;<br>
+                <td nowrap><div class="code">-cu&lt;usb_path_name&gt;<br>
                     -cu &lt;usb_path_name&gt;</div></td>
                 <td>Use this command once got all the USB path by -culist.<br>Run shell_EasyFlash for each USB path found</td>
                 <td>e.g. -cu"5&amp;112bc8d3&amp;0&amp;7"</td>
             </tr>
 	        <tr>
                 <td rowspan="1"><strong>qbackup file storage (SARA-R4,LEXI-R4,LARA-L6,LARA-R6 only)</strong></td>
-                <td nowrap=""><div class="code">-u&lt;qbackup_folder_path&gt;</div></td>
+                <td nowrap><div class="code">-u&lt;qbackup_folder_path&gt;</td>
                 <td>Store qbackup file (containing calibration data) in a specific folder</td>
                 <td>e.g. -uC:/Temp/Backups/</td>
             </tr>
@@ -997,19 +998,19 @@
                 <td></td>
             </tr>
             <tr>
-                <td nowrap=""><div class="code">-dc[trace_folder_name]<br>
+                <td nowrap><div class="code">-dc[trace_folder_name]<br>
                     -dc [trace_folder_name]</div></td>
                 <td>Set path containing trace file, filename will be created automatically</td>
                 <td>shell_EasyFlash -pLARA-L6 -cu08 -dcC:/Logs/</td>
             </tr>
             <tr>
-                <td nowrap=""><div class="code">-df&lt;trace_file_path&gt;<br>
+                <td nowrap><div class="code">-df&lt;trace_file_path&gt;<br>
                     -df &lt;trace_file_path&gt;</div></td>
                 <td>Set path of a custom trace file</td>
                 <td>shell_EasyFlash -pLARA-L6 -cu08 -dfC:/Logs/logfile.log</td>
             </tr>
             <tr>
-                <td nowrap=""><div class="code">-w&lt;temp_folder_name&gt;<br>
+                <td nowrap><div class="code">-w&lt;temp_folder_name&gt;<br>
                     -w &lt;temp_folder_name&gt;</div></td>
                 <td>Set path of folder used to contain temporary files, the folder will be removed automatically after the flashing</td>
                 <td>shell_EasyFlash -pLARA-L6 -cu08 -wC:/Temp/</td>
@@ -1025,6 +1026,5 @@
         </tbody>
     </table>
 
-
-
-</body></html>
+</body>
+</html>

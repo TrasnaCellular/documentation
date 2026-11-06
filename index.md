@@ -19,7 +19,7 @@ The target audience are Embedded SW developers, system integrators, test & valid
 
 # 🛠️ EasyFlash guide
 
-- [EasyFlash](easyflash/easyflash_guide.html)
+- [EasyFlash](easyflash/guide_v15_03_4_0.html)
 
 ---
 
